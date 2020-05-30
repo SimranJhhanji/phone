@@ -96,7 +96,7 @@ else{
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <form action="/crud2/index.php" method="POST">
+                <form action="/index.php" method="POST">
                     <div class="modal-body">
                         <input type="hidden" name="snoEdit" id="snoEdit">
                         <!-- change   -->
@@ -188,7 +188,7 @@ else{
   ?>
     <div class="container my-4">
         <h1>Phone Book</h1>
-        <form action="/crud2/index.php" method="POST">
+        <form action="/index.php" method="POST">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
@@ -296,7 +296,7 @@ else{
 
                 if (confirm("Are you sure you want to delete this note!")) {
                     console.log("yes");
-                    window.location = `/crud2/index.php?delete=${sno}`;
+                    window.location = `/index.php?delete=${sno}`;
                     // TODO: Create a form and use post request to submit a form
                 }
                 else {
