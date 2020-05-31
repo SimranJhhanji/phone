@@ -7,7 +7,7 @@ $delete = false;
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "contact us";
+$database = "contactus";
 
 // Create a connection
 $conn = mysqli_connect($servername, $username, $password, $database);
